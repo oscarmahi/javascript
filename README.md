@@ -1,2 +1,2 @@
 # javascript
-Ejemplo de calculadora de masa corporal
+Proyectos de ejemplo de javascript
