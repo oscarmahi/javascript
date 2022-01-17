@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="index.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <title>Estadisticas Covid</title>
+</head>
+<body>
+    <div class="contenedor">
+        <h1>Estadisticas del COVID19</h1>
+        <b>Fecha: </b><input id="inputFecha" type="date"/><br/><br/>
+        <b>Pais: </b>
+        <select id="selectPais">
+            <option value="Spain">España</option>
+            <option value="Italy">Italia</option>
+            <option value="Argentina">Argentina</option>
+            <option value="Colombia">Colombia</option>
+            <option value="Chile">Chile</option>
+            <option value="Peru">Peru</option>
+            <option value="Paraguay">Paraguay</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Germany">Alemania</option>
+        </select>
+        <br/><br/>
+        <button id="btnCargar">Cargar Estadisticas</button>
+        <br/><br/>
+        <ul>
+         <li>today confirmed: <span id='tc'></span></li>
+         <li>today deaths: <span id='td'></span></li>
+         <li>today hospitalised patients with symptoms: <span id='thp'></span></li>
+         <li>today intensive care: <span id='tic'></span></li>
+         <li>today new confirmed: <span id='tnc'></span></li>
+         <li>today new deaths: <span id='tnd'></span></li>
+         <li>today new hospitalised patients with symptoms: <span id='tnh'></span></li>
+         <li>today new intensive care: <span id='tni'></span></li>
+         <li>today new open cases: <span id='tno'></span></li>
+         <li>today new recovered: <span id='tnr'></span></li>
+         <li>today new total hospitalised patients: <span id='tnt'></span></li>
+        </ul>
+    </div>
+</body>
+</html>
